@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f8faf9">
+  <meta name="description" content="yukisiroの個人サイト。競技プログラミング、開発、学びの記録。">
+  <title>Home | yukisiro</title>
+  <link rel="icon" type="image/svg+xml" href="./favicon.svg">
+  <link rel="stylesheet" href="./styles.css">
+  <script defer src="./app.js"></script>
+</head>
+<body data-page="home">
+  <div class="site-shell">
+    <header class="site-header wrap">
+      <a class="brand" href="./index.html" aria-label="yukisiro Home"><span class="brand-mark">y.</span><span>yukisiro<span class="brand-dot">.</span></span></a>
+      <nav class="site-nav" aria-label="メインナビゲーション">
+        <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+        <a class="nav-link" href="./articles.html">Articles</a>
+        <a class="nav-link" href="./about.html">About</a>
+      </nav>
+    </header>
+
+    <main class="wrap">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <span class="eyebrow"><span class="status-dot"></span> PERSONAL WEBSITE / 2026</span>
+          <h1 id="hero-title">Hi, I'm <span class="name-accent">yukisiro.</span></h1>
+          <p class="hero-role">Student <span class="separator">/</span> Developer <span class="separator">/</span> Algorithm enthusiast</p>
+          <p class="hero-description">競技プログラミングやアルゴリズム、ソフトウェア開発に興味があります。<br class="desktop-break">学んだこと、考えたこと、作ったものをここに記録していきます。</p>
+          <div class="hero-actions">
+            <a class="button-primary" href="./articles.html">記事を読む <span aria-hidden="true">↗</span></a>
+            <a class="button-secondary" href="./about.html">About me <span aria-hidden="true">→</span></a>
+          </div>
+          <div id="socialLinks" class="social-row" aria-label="SNSリンク"></div>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <div class="art-corner-label">A LITTLE CORNER OF THE INTERNET</div>
+          <div class="art-circle circle-a"></div><div class="art-circle circle-b"></div>
+          <div class="art-code"><span class="art-comment">// learning, building, exploring</span><br><span class="art-keyword">while</span> (curious) {<br>&nbsp;&nbsp;learn();<br>&nbsp;&nbsp;create();<br>}</div>
+          <span class="art-bottom">01 / PERSONAL SPACE</span>
+        </div>
+      </section>
+
+      <section class="section what-section" aria-labelledby="focus-title">
+        <div class="section-heading"><div><p class="section-kicker">INTERESTS</p><h2 id="focus-title">Things I like</h2></div><span class="section-note">現在の関心分野</span></div>
+        <div class="interest-grid">
+          <div class="interest-card"><span class="interest-number">01</span><div class="interest-icon" aria-hidden="true">&lt;/&gt;</div><h3>Competitive Programming</h3><p>アルゴリズムを考え、C++で実装すること。</p></div>
+          <div class="interest-card"><span class="interest-number">02</span><div class="interest-icon" aria-hidden="true">⌁</div><h3>Optimization</h3><p>よりよい解を見つけるための工夫を考えること。</p></div>
+          <div class="interest-card"><span class="interest-number">03</span><div class="interest-icon" aria-hidden="true">✳</div><h3>Development</h3><p>自分が使いたいツールを実際に作ってみること。</p></div>
+        </div>
+      </section>
+
+      <section class="section latest-section" aria-labelledby="latest-title">
+        <div class="section-heading"><div><p class="section-kicker">JOURNAL</p><h2 id="latest-title">Latest articles</h2></div><a class="section-more" href="./articles.html">View all articles <span aria-hidden="true">↗</span></a></div>
+        <div id="recentList" class="article-stack" aria-live="polite"><p class="loading-message">記事を読み込み中...</p></div>
+      </section>
+    </main>
+    <footer class="site-footer wrap"><span>© <span data-year>2026</span> yukisiro</span><span>Made with curiosity <span class="footer-spark">✳</span></span></footer>
+  </div>
+</body>
+</html>
